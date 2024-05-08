@@ -1,0 +1,65 @@
+
+
+.sortslct select{
+    background-color: rgba(59, 58, 58,0.5);
+    color: white;
+    font-size: 3vh;
+    border: 2px solid white;
+    height: fit-content;
+    min-height: 7vh;
+    width: fit-content;
+    min-width: 40vh;
+    border-radius: 12px;
+    padding: 1%;
+    margin-top: 1%;
+    float: right;
+    margin-right: 1.5%;
+}
+.sortslct select option{
+    color: black;
+}
+
+.qna .card{
+    background-color: rgba(59, 58, 58,0.5);
+    color:rgb(177, 41, 255);
+}
+.qna h4{
+    color: rgb(15, 247, 255);
+}
+.qna .card-body .card{
+    background: linear-gradient(90deg,rgba(55, 42, 61, 0.3),rgba(208, 106, 255, 0.205),rgba(59, 58, 58,0.5));
+}
+.qna .card-body .card:hover{
+    background: linear-gradient(90deg,rgba(208, 106, 255, 0.205),rgba(59, 58, 58,0.5),rgba(208, 106, 255, 0.205));
+}
+.rating5{
+    display: inline;
+    font-size: 150%;
+    color: rgb(0, 255, 0);
+}
+.rating5 div , .rating3 div , .rating1 div{
+    font-size: larger;
+    padding: 0.7%;
+    padding-right: 1%;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.089);
+}
+.rating5 > * , .rating3 > * , .rating1 > *{
+    margin-right: 5px;
+}
+
+.rating3{
+    display: inline;
+    font-size: 150%;
+    color: rgb(238, 255, 0);
+}
+
+.rating1{
+    display: inline;
+    font-size: 150%;
+    color: rgb(255, 60, 0);
+}

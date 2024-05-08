@@ -1,0 +1,15 @@
+.box{
+    background-color:rgba(188, 19, 254,0.5);
+    font-size: 23px;
+    
+}
+.box input {
+    background-color:rgba(16, 0, 59,0.5);
+    color: rgb(67, 217, 255);
+    font-size: 20px;   
+}
+.box label i {
+  color: red;
+  margin-left: 5px;
+}
+

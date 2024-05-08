@@ -1,0 +1,38 @@
+.card {
+    border-radius: 25px;
+    background-color: rgba(59, 58, 58,0.7);
+    color: white;
+}
+.card.profile {
+    /* background-color: rgb(59, 58, 58,0.7); */
+    background: linear-gradient(165deg,rgba(208, 106, 255,0.3),rgba(59, 58, 58,0.5),rgba(208, 106, 255,0.3));
+    color:white;
+}
+
+.small-cards .card:hover {
+    scale: 1.05;
+    transition: 0.3s ease;
+}
+
+.qora .card{
+    background-color: rgba(59, 58, 58,0.5);
+    color:rgb(177, 41, 255);
+}
+.qora h4{
+    color: rgb(15, 247, 255);
+}
+.qora .card-body .card{
+    background: linear-gradient(90deg,rgba(55, 42, 61, 0.3),rgba(208, 106, 255, 0.205),rgba(59, 58, 58,0.5));
+    transition: all 0.3s ease;
+}
+.qora .card-body .card:hover{
+    width:100.5%;
+}
+
+.acdata .card{
+    background-color: rgba(59, 58, 58,0.5);
+    color:rgb(0, 195, 255);
+}
+.acdata h4{
+    color: white;
+}

@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(180deg, black, rgb(0, 2, 26), rgb(1, 1, 56));
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.leaderbody {
+    padding: 1% 15% 0% 15%;
+}
+
+.topuser .card {
+    align-items: center;
+    margin-top: 20%;
+    background-color: rgb(24, 23, 23);
+    animation: cardAnimation2 1.5s ease forwards;
+}
+
+/* .topuser .col-lg-4:nth-child(3) .card {
+    animation: cardAnimation2 0.5s ease forwards;
+    animation-delay: 0.5s;
+}
+.topuser .col-lg-4:nth-child(2) .card {
+    animation: cardAnimation2 0.5s ease forwards;
+    animation-delay: 1s;
+}
+.topuser .col-lg-4:nth-child(1) .card {
+    animation: cardAnimation2 0.5s ease forwards;
+    animation-delay: 1.5s;
+} */
+
+
+/* .imgwrap{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: aqua;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+} */
+.topuser img {
+    /* width: auto;
+    height: 100%;
+    margin-left: -25%; */
+    width: 15vw;
+    height: 13vw;
+    border-radius: 50%;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate {
+    animation: fadeIn 1s ease-in-out;
+  }

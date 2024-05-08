@@ -1,0 +1,47 @@
+.navbar-nav .nav-item {
+  padding-right: 15px;
+}
+
+.navbar {
+  padding: 8px 16px; /* Adjust the padding as needed */
+}
+
+.custom-button {
+  height: 40px; /* Adjust the height as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.primary-button {
+  width: 120px; /* Width for the Login button */
+  background-color: #6f42c1; /* Purple color for the primary button */
+  color: #fff; /* Text color for the primary button */
+}
+
+.secondary-button {
+  width: 140px; /* Width for the Register button (adjusted for example) */
+  background: linear-gradient(to right, #9e49c1, #6610f2); /* Gradient background for the secondary button */
+  color: #fff; /* Text color for the secondary button */
+}
+
+.custom-button:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+
+.custom-button span {
+  font-size: 18px; /* Adjust the font size for the text inside the button */
+}
+
+.custom-button:hover {
+  background-color: #4a148c; /* Darker purple color on hover for both buttons */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.secondary-button:hover {
+  filter: brightness(90%); /* Slight brightness reduction on hover for Register button */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}

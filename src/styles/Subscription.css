@@ -1,0 +1,38 @@
+.subscription-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;  
+  }
+
+  .subscription-card:hover{
+    scale: 1.05;
+    transition: 0.3s ease;
+  }
+  
+  .subscription-card .card-header {
+    /* background-color: #575757; */
+    border-bottom: 1px solid #343a40;
+    font-size: 28px; 
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  .subscription-card .card-body {
+    padding: 20px;
+  }
+  
+  .subscription-card .card-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .subscription-card .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .subscription-card a.btn {
+    margin-top: 10px;
+  }
+  .subscription-title {
+    font-size: 100px;
+  }
+  

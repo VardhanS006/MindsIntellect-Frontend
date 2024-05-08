@@ -1,0 +1,47 @@
+label{
+    font-size:x-large;
+}
+.leftform button{
+    font-size: x-large;
+}
+textarea{
+    background-color: #dee2e6;
+    height: 250px;
+    font-size: 150px;
+}
+.guZdik{
+    max-width: 110vh !important;
+    width: 90vh !important;
+    height: 27.7em !important;
+    margin: auto !important;
+    display: block !important;
+}
+.guZdik svg{
+    display: block !important;
+    margin: auto !important;
+    margin-top: 5% !important;
+    max-width: 60% !important;
+    max-height: 60% !important;
+    min-width: 60% !important;
+    min-height: 60% !important;
+}
+.guZdik div *{
+    display: block !important;
+    margin: auto !important;
+    color: whitesmoke;
+    font-size: larger;
+}
+.guZdik div span{
+    display: block !important;
+    margin: auto !important;
+    color: whitesmoke;
+    font-size: larger;
+}
+.file-types{
+    position: absolute !important;
+    bottom: 1%;
+    right: 10%;
+    overflow: visible !important;
+    font-size: large !important;
+}
+  

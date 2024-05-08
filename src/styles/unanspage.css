@@ -1,0 +1,48 @@
+.sortslct select{
+    background-color: rgba(59, 58, 58,0.5);
+    color: white;
+    font-size: 3vh;
+    /* border: 2px solid white; */
+    height: fit-content;
+    min-height: 7vh;
+    width: fit-content;
+    min-width: 40vh;
+    border-radius: 8px;
+    padding: 1%;
+    /* margin-top: 1%; */
+    float: right;
+    margin-right: 1.5%;
+}
+.sortslct select option{
+    color: black;
+}
+
+.qna .card{
+    background-color: rgba(59, 58, 58,0.5);
+    /* color:rgb(177, 41, 255); */
+    color: aquamarine;
+    border-radius: 10px;
+}
+.qna h4{
+    /* color: rgb(15, 247, 255); */
+    color: white;
+}
+.qna .card-header h2{
+    float: right;
+    display: inline;
+}
+.qna .card-header div{
+    display: inline;
+}
+.qna .card-body .card{
+    /* background: linear-gradient(90deg,rgba(55, 42, 61, 0.3),rgba(208, 106, 255, 0.205),rgba(59, 58, 58,0.5)); */
+    background-color: rgb(56, 56, 56);
+}
+.qna .card-body .card:hover{
+    background: linear-gradient(90deg,rgba(208, 106, 255, 0.205),rgba(59, 58, 58,0.5),rgba(208, 106, 255, 0.205));
+}
+.qna{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+    
+}

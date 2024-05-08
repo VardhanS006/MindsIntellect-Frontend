@@ -1,0 +1,37 @@
+.contact-container {
+    background-size: 100% 100%; /* Set fixed background size */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .midfrom {
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #ffffff; /* Change border color on focus */
+  }
+  
+  #message {
+    height: 220px;
+  }
+  

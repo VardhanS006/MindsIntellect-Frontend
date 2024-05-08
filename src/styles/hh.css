@@ -1,0 +1,73 @@
+.home-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+  .home-container .home-image-section img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .home-container body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .home-container body {
+    background-color: #f6f6f6;
+  }
+
+  .home-container .home-banner-container {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -60%);
+    z-index: 1;
+    display: flex;
+  }
+  
+  .home-container .home-image-section {
+    width: 600px;
+    margin-top: 3rem;
+    margin-left: -5%;
+  }
+  
+  .home-container .primary-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #ff0808;
+    /* line-height: 5rem; */
+    width: 600px;
+    margin-left: 3%;
+  }
+  .home-container .primary-text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 500px;
+    color: #9aa9ff;
+    margin: 1.5rem 0rem;
+    margin-left: 3%;
+  }
+  .home-container .secondary-button {
+    padding: 1rem 2.5rem;
+    background-color: #fe9e0d;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+  .home-container .secondary-button svg {
+    margin-left: 0.75rem;
+    font-size: 1.5rem;
+  }
+  .home-container .secondary-button:hover {
+    background-color: #e48f0f;
+  }
