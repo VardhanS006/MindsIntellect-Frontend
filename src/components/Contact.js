@@ -18,7 +18,7 @@ export default function Contact() {
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
         color: "white",
-        minHeight: "120.71vh",
+        minHeight: "123.71vh",
       }}
     >
       <div className="contact-form">
