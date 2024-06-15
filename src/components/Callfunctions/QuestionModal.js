@@ -25,7 +25,6 @@ export const QuestionModal = ({ showModal, handleClose, type, quesId, token }) =
     else{
       setAnstype('rate');
     }
-    alert(ansrId);
     setAnsId(ansrId);
     setShowModal2(true);
   };
