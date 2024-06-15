@@ -118,7 +118,7 @@ const Dashboard = () => {
                         <h2>Welcome</h2>
                         <h1 style={{ fontSize: "4rem", fontFamily: "Copperplate Gothic Light" }}>{user.fname + ' ' + user.mname + (user.mname !== '' || user.mname !== null ? ' ' : '') + user.lname}</h1>
                         <h4>{role.replace('ROLE_', '')}</h4>
-                        <Link to={'/edit-profile'} style={{ fontSize: "5vh" }}>Edit Profile</Link>
+                        <h4>{user.email}</h4>
                     </div>
 
                     {role === 'ROLE_MENTOR' && (
