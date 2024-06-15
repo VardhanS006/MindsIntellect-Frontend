@@ -151,12 +151,8 @@ const Askme = () => {
                         {question.question} <br />
                       </h2>
                     </div>
-                    <div className="col-lg-2" style={{ fontSize: "3vh" }}>
-                      <FontAwesomeIcon icon={faStarHalfAlt} />
-                      <FontAwesomeIcon icon={faStarHalfAlt} />
-                      <FontAwesomeIcon icon={faStarHalfAlt} />
-                      <FontAwesomeIcon icon={faStarHalfAlt} />
-                      <FontAwesomeIcon icon={faStarHalfAlt} />
+                    <div className="col-lg-2" style={{ fontSize: "4vh" }}>
+                    <FontAwesomeIcon icon={faStarHalfAlt} />{' '+question.rating+'/5'}
                     </div>
                   </div>
                 </div>
