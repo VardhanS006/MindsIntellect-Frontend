@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     max-width: 600px;
-    margin-top: 3rem; /* Adjust margin to move the image down */
+    margin-top: 3rem; 
   }
   .home-container .home-image-section img {
     max-width: 100%;
@@ -46,7 +46,6 @@
   .home-container .primary-heading {
     font-size: clamp(2rem, 5vw, 4rem);
     color: #ff0808;
-    /* line-height: 5rem; */
     max-width: 600px;
     margin-left: 3%;
   }
