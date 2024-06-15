@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import '../styles/navbotm.css';
 import dashboard from '../assets/dashboard.png';
 import leaderboard from '../assets/leaderboard4.png';
+import askques from '../assets/AskQuestion.png';
+import postansr from '../assets/PostAnswer.png';
+import QnaPortl from '../assets/QnaPortal.png';
+import Pndng from '../assets/Pendings.png';
 import { Link, useNavigate } from 'react-router-dom';
 
 export default function Mainnav() {
@@ -43,14 +47,14 @@ export default function Mainnav() {
 
           <div className='navobj'>
             <Link to={role === 'ROLE_MENTOR' ? "/m/unanswered" : role === 'ROLE_LEARNER' ? "/l/askquestion" : "/login"}>
-              <img src={dashboard} alt='Dash' style={{ maxHeight: "150%", translate: "-10% -20%" }} />
+              <img src={role === 'ROLE_MENTOR' ? postansr : askques} alt='Dash' style={{ maxHeight: "150%", translate: "-10% -20%" }} />
               <div className="overlay" style={{ marginLeft: "-20%" }}>{role === 'ROLE_MENTOR' ? "Post an Answer" : role === 'ROLE_LEARNER' ? "Ask a Question" : ""}</div>
             </Link>
           </div>
 
           <div className='navobj'>
             <Link to={'/qnaportal'}>
-              <img src={dashboard} alt='Dash' style={{ maxHeight: "150%", translate: "-10% -20%" }} />
+              <img src={QnaPortl} alt='Dash' style={{ maxHeight: "150%", translate: "-10% -20%" }} />
               <div className="overlay">QnAPortal</div>
             </Link>
           </div>
@@ -66,7 +70,7 @@ export default function Mainnav() {
 
           <div className='navobj'>
             <Link to={role === 'ROLE_MENTOR' ? "/m/pendings" : role === 'ROLE_LEARNER' ? "/l/pendings" : "/login"}>
-              <img src={dashboard} alt='Dash' style={{ maxHeight: "150%", translate: "-10% -20%" }} />
+              <img src={Pndng} alt='Dash' style={{ maxHeight: "150%", translate: "-10% -20%" }} />
               <div className="overlay">Pendings</div>
             </Link>
           </div>
